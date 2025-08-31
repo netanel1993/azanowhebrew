@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>עזה עכשיו – מתורגם לעברית | הצטרפו לערוץ בטלגרם</title>
+  <meta name="description" content="עדכונים חיים מעזה, מתורגמים לעברית בזמן אמת. הצטרפו לערוץ Telegram: עזה עכשיו – צוות ישראלי." />
+  <meta name="theme-color" content="#0ea5e9" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="עזה עכשיו – מתורגם לעברית" />
+  <meta property="og:description" content="דיווחים חיים, תרגומים מיידיים, התראות ומדיה – הצטרפו לערוץ בטלגרם." />
+  <meta property="og:url" content="https://t.me/AzaNowHebrew" />
+  <meta property="og:image" content="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='630'%3E%3Crect width='1200' height='630' fill='%230ea5e9'/%3E%3Ctext x='50%25' y='52%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='56' fill='white'%3Eעזה עכשיו – מתורגם%3C/text%3E%3C/svg%3E" />
+
+  <!-- Prefer opening in Telegram app when possible -->
+  <link rel="alternate" href="tg://resolve?domain=AzaNowHebrew" />
+
+  <style>
+    :root {
+      --bg: #0b1220;
+      --card: #0f172a;
+      --muted: #94a3b8;
+      --text: #e2e8f0;
+      --accent: #0ea5e9; /* sky-500 */
+      --accent-2: #22d3ee; /* cyan-400 */
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, Noto Sans, "Apple Color Emoji", "Segoe UI Emoji";
+      background: radial-gradient(1200px 600px at 80% -10%, rgba(34,211,238,.12), transparent 70%),
+                  radial-gradient(1000px 500px at 20% 110%, rgba(14,165,233,.15), transparent 70%),
+                  var(--bg);
+      color: var(--text);
+      display: flex; align-items: center; justify-content: center;
+      padding: 24px;
+    }
+    .container {
+      width: 100%; max-width: 920px;
+    }
+    .banner {
+      display: flex; gap: 20px; align-items: center; justify-content: space-between;
+      background: linear-gradient(135deg, rgba(14,165,233,.12), rgba(34,211,238,.10));
+      border: 1px solid rgba(148,163,184,.15);
+      border-radius: 20px; padding: 16px 18px; margin-bottom: 22px;
+      backdrop-filter: blur(8px);
+    }
+    .badge { font-size: 14px; color: var(--muted); }
+    .logo {
+      width: 48px; height: 48px; border-radius: 12px;
+      display: inline-grid; place-items: center; background: var(--accent);
+      box-shadow: 0 10px 30px rgba(14,165,233,.35);
+      font-weight: 800; color: #00131a;
+    }
+    .card {
+      background: linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.01));
+      border: 1px solid rgba(148,163,184,.15);
+      border-radius: 24px; padding: 28px; box-shadow: 0 10px 35px rgba(0,0,0,.25);
+    }
+    h1 { margin: 0 0 8px; font-size: clamp(24px, 4vw, 40px); line-height: 1.2; }
+    p.lead { margin: 0 0 18px; font-size: clamp(16px, 2.4vw, 20px); color: var(--muted); }
+
+    .features { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 14px; margin: 18px 0 26px; }
+    .feat { background: rgba(148,163,184,.06); border: 1px solid rgba(148,163,184,.12); border-radius: 16px; padding: 14px; font-size: 14px; color: #cbd5e1; }
+    .feat b { color: #e2e8f0; }
+
+    .cta-wrap { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+    .cta {
+      appearance: none; border: none; cursor: pointer; text-decoration: none;
+      display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+      padding: 14px 20px; font-weight: 700; font-size: 18px; border-radius: 14px;
+      color: #031a22; background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      box-shadow: 0 8px 24px rgba(14,165,233,.45), inset 0 1px 0 rgba(255,255,255,.25);
+      transition: transform .08s ease, box-shadow .2s ease; will-change: transform;
+    }
+    .cta:hover { transform: translateY(-1px); box-shadow: 0 12px 28px rgba(14,165,233,.55); }
+    .ghost { background: transparent; color: var(--text); border: 1px solid rgba(148,163,184,.35); }
+
+    .subtle { font-size: 12px; color: var(--muted); margin-top: 10px; }
+    footer { margin-top: 22px; font-size: 12px; color: var(--muted); text-align: center; }
+
+    @media (max-width: 760px) {
+      .features { grid-template-columns: 1fr; }
+      .banner { flex-direction: column; align-items: stretch; gap: 10px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="banner" aria-label="ערוץ טלגרם – מידע חי">
+      <div style="display:flex; gap:12px; align-items:center;">
+        <div class="logo" aria-hidden="true">AZ</div>
+        <div>
+          <div class="badge">ערוץ טלגרם רשמי</div>
+          <strong>עזה עכשיו – מתורגם לעברית | צוות ישראלי</strong>
+        </div>
+      </div>
+      <div class="badge">⚡ עדכונים חיים • 📰 תרגום מיידי</div>
+    </div>
+
+    <main class="card" role="main">
+      <h1>חדשות חמות מעזה – בעברית, בזמן אמת</h1>
+      <p class="lead">התרעות, סרטונים ודיווחים מתורגמים לעברית במהירות. בלי פילטרים, בלי עיכובים – כל מה שצריך לדעת במקום אחד.</p>
+
+      <div class="features" aria-label="למה להצטרף?">
+        <div class="feat">⚡ <b>מהירות:</b> תרגומים מיידיים של דיווחים חמים</div>
+        <div class="feat">📰 <b>סינון:</b> רק עדכונים חשובים – בלי ספאם</div>
+        <div class="feat">🔔 <b>התראות:</b> תהיו הראשונים לדעת</div>
+      </div>
+
+      <div class="cta-wrap">
+        <a id="join-btn" class="cta" href="#" rel="noopener" aria-label="להצטרפות לערוץ בטלגרם">
+          הצטרפו לערוץ בטלגרם
+          <span aria-hidden="true">→</span>
+        </a>
+        <button id="copy-btn" class="cta ghost" type="button">העתקת קישור</button>
+      </div>
+
+      <p class="subtle">לחיצה תפתח את אפליקציית טלגרם (במובייל) או את Telegram Web (במחשב). אם לא נפתח, יש קישור גיבוי בהמשך.</p>
+
+      <details style="margin-top:12px;">
+        <summary>קישור ישיר (גיבוי)</summary>
+        <p><a id="fallback-link" href="https://t.me/AzaNowHebrew" target="_blank" rel="noopener">https://t.me/AzaNowHebrew</a></p>
+      </details>
+    </main>
+
+    <footer>
+      📝 מקור: QudsN | תרגום לעברית ע״י צוות ישראלי (לא אומת ע״י גורם רשמי)
+    </footer>
+  </div>
+
+  <script>
+    (function() {
+      const channelHandle = 'AzaNowHebrew';
+      const deepLink = 'tg://resolve?domain=' + channelHandle;
+      const webLinkBase = 'https://t.me/' + channelHandle;
+
+      // שומרים פרמטרי UTM אם הגיעו מהקמפיין
+      const params = new URLSearchParams(window.location.search);
+      const webLink = params.toString() ? `${webLinkBase}?${params.toString()}` : webLinkBase;
+
+      const joinBtn = document.getElementById('join-btn');
+      const copyBtn = document.getElementById('copy-btn');
+      const fallbackA = document.getElementById('fallback-link');
+      fallbackA.href = webLink;
+
+      function openTelegramSmart(e) {
+        e && e.preventDefault();
+        const isMobile = /Android|iPhone|iPad|iPod|Opera Mini|IEMobile/i.test(navigator.userAgent);
+        const start = Date.now();
+
+        // ניסיון לפתוח את האפליקציה
+        const ifr = document.createElement('iframe');
+        ifr.style.display = 'none';
+        ifr.src = deepLink;
+        document.body.appendChild(ifr);
+
+        // נפילה חכמה ל־Web/אפליקציה
+        setTimeout(() => {
+          const elapsed = Date.now() - start;
+          // אם לא נפתח (דפדפן חסם/אין אפליקציה) – נעבור ל־t.me
+          if (elapsed < 1500) {
+            window.location.href = webLink;
+          }
+          setTimeout(() => document.body.removeChild(ifr), 1000);
+        }, 600);
+      }
+
+      joinBtn.addEventListener('click', openTelegramSmart);
+
+      copyBtn.addEventListener('click', async () => {
+        try {
+          await navigator.clipboard.writeText(webLink);
+          copyBtn.textContent = 'הקישור הועתק ✔';
+          setTimeout(() => (copyBtn.textContent = 'העתקת קישור'), 1600);
+        } catch (err) {
+          alert('לא הצלחתי להעתיק. הקישור הגיבוי זמין מתחת לכפתור.');
+        }
+      });
+
+      // מאפשר גם פתיחה אוטומטית אם מגיעים מקמפיין עם ?auto=1
+      if (params.get('auto') === '1') {
+        setTimeout(() => openTelegramSmart(), 250);
+      }
+    })();
+  </script>
+</body>
+</html>
